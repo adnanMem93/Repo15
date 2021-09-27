@@ -1,0 +1,96 @@
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+header ul{
+    list-style-type: none;
+    float:right;
+}
+
+header ul li{
+    display:inline;
+    padding-left:20px;
+}
+
+.nav-links a{
+    color:black;
+    text-decoration: none;
+}
+
+#sign_in a{
+    color:white;
+    padding:10px;
+    background:#1a73e8;
+    text-decoration: none;
+    margin-right:10px;
+    border-radius:6px;
+}
+
+.google-image{
+  margin:auto;
+  text-align:center;
+  margin:auto;
+  margin-top:10%;
+}
+
+.form-search{
+    text-align:center;
+}
+
+#form-search{
+    width:25rem;
+    height:2rem;
+    border-radius:15px;
+    outline:none;
+}
+
+.buttons{
+    text-align:center;
+    margin-top:1.5rem;
+}
+
+.buttons button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer{
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    display:flex;
+    justify-content: space-between;
+    background:#dbd6db;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+.footer-left li{
+    list-style-type: none;
+    display:inline;
+}
+
+.footer-right li{
+    list-style-type: none;
+    display:inline; 
+}
+
+footer a{
+    color:#403f40;
+    text-decoration: none;
+    padding:15px;
+    font-size: 16px;
+    font-weight:400;
+}
+
+.footer-left{
+    padding-left:0;
+}
+
+.footer-right{
+    padding-right:0;
+}
